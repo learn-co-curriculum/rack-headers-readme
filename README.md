@@ -14,7 +14,7 @@ Rack uses these headers to set up the environment in accordance with the HTTP st
 
 ```ruby
 class ResponseTimer
-  def intialize(app)
+  def initialize(app)
     @app = app
   end
 
